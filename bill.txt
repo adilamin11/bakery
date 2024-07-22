@@ -1,0 +1,8 @@
+Delivery Date: 2024-07-22
+Payment Method: Cash
+
+Products:
+Product: Birthday Cake, Quantity: 1, Price: 300, Total Price: 300
+Product: Chocolate tarts, Quantity: 1, Price: 120, Total Price: 120
+
+Total Amount: 420

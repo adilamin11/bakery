@@ -1,0 +1,135 @@
+
+        .blank_container {
+        
+            margin-top: 3rem;
+            height: 30vh;
+            width: 98vw;
+            /* background-color: rgba(218, 214, 208, 0.406); */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @media (max-width:1246px) {
+            .blank_container {
+                margin-top: 20%;
+            }
+
+        }
+
+        .about_heading {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-style: italic;
+            color: #2c2b2e;
+            font-size: 35px;
+            padding-bottom: 1rem;
+            border-bottom: 2.5px solid #c37a3e;
+            cursor: pointer;
+        }
+        .main_back_image {
+            background-image: url(../Image/n3.jpg);
+            height: 112vh;
+            width: 90vw;
+            margin-left: 5rem;
+            /* border: 2px solid black; */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .two_image_containeer {
+            height: 85vh;
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid darkblue; */
+        }
+
+        .main_parent_container {
+            margin-top: 0%;
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            /* border: 2px solid black; */
+        }
+
+        @media (max-width:1246px) {
+            .main_parent_container {
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+
+            }
+
+            .customer_img {
+                height: 75%;
+                width: 70%;
+            }
+
+            .about_desc {
+                font-size: 20px;
+
+                width: 500px;
+
+            }
+        }
+
+        .customer_img {
+            /* padding:2% 0% 0% 2% ; */
+            height: 95%;
+            width: 90%;
+            margin-left: 1rem;
+            border-radius: 20px;
+            box-shadow: 7px 11px 14px 1px #161619;
+            transition: all 2s ease 0s;
+        }
+
+        .customer_img:hover,
+        .customer_img_two:hover {
+            transform: scale(0.92);
+        }
+
+        .customer_img_two {
+
+            height: 18.2rem;
+            width: 23rem;
+            margin-left: 2rem;
+            border-radius: 20px;
+            box-shadow: -7px 11px 14px 1px #161619;
+            transition: all 2s ease 0s;
+        }
+
+        .about_us_container {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+
+        }
+
+        .about_desc {
+            font-size: 25px;
+            font-style: italic;
+            color: rgb(51, 61, 61);
+            width: 800px;
+           
+            font-family: "Fira Sans", sans-serif;
+            font-weight: 550;
+            font-style: italic;
+            
+        }
+
+        .main_parent_container_2 {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+
+        }

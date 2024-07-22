@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body_container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    
+}
+@media (max-width:1000px) {
+    .body_container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.body_container::before{
+    content:"";
+    background-image: url(../Image/u_reg_back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.91;
+
+}
+.container{
+    height: 95%;
+    width: 30%;
+    position: relative;
+    margin-right: 5rem;
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 4px rgb(52, 47, 47);
+
+}
+@media (max-width:900px) {
+    .container{
+        width: 1000px;
+        height: 95%;
+    }
+}
+.container::after{
+    background-color: rgb(227, 225, 225);
+    position:absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 1;
+}
+.parent_container{
+    background-color: rgba(248, 242, 242, 0);
+    border: 2px solid rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+  
+}
+.register_title{
+    width: 100%;
+    height: 15%;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgba(244, 250, 248, 0);
+   border-bottom: 1px solid rgb(255, 252, 252);
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_container{
+    width: 100%;
+    height: 75%;
+    /* border: 1px solid black; */
+    background-color: rgba(244, 244, 244, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.username_div,.password_div,.mail_div,.Con_password_div,.mob_div,.add_div{
+    display: flex;
+    flex-direction: column;
+}
+.button_div{
+    padding-top: 8%;
+    width: 20%;
+    height: 10%;
+    background-color: rgba(249, 255, 247, 0);
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#username_title,#password_title,#mail_title,#Con_password_title,#mob_title,#add_title{
+    font-size: 20px;
+    margin-top: 0.5rem;
+    /* color: rgb(59, 48, 48); */
+    color: white;
+    font-weight: 500;
+    font-family:'Oswald', sans-serif;
+}
+#user,#pwd,#mail,#con_pwd,#mob,#add{
+    margin-top: 0.3rem;
+   text-align: center;
+    font-size: 18px;
+    letter-spacing: 1px;
+    width: 380px;
+    height:40px;
+    border: 0px solid rgba(24, 15, 15, 0.062);
+    border-radius: 12px;
+}
+@media (max-width:412px) {
+    #user,#pwd,#mail,#con_pwd,#mob,#add{
+        width: 280px;
+        height:20px;
+    }
+    
+}
+#submit_button{
+    border: 0px solid rgba(234, 224, 224, 0.062);
+    background-image: linear-gradient(to right, #ae912f 0%, #5fd5d3 51%, #5aec61 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2); */
+    box-shadow: 0 0 20px #eee;
+    font-size: 20px;
+    width: 380px;
+    height:40px;
+    border-radius: 50px;
+}
+#submit_button:hover{
+    background-position: right center;
+}
+.ancor,a{
+    /* padding-top: 2px; */
+  font-size: 18px;
+ 
+  
+   text-decoration: none;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+  
+}
+.login_here_title{
+    color: rgb(1, 247, 206);
+}
+.login_here_title:hover{
+   color: rgb(2, 65, 72);
+}
+.login_title{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
